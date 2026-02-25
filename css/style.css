@@ -25,6 +25,13 @@ h1 {
     margin-bottom: 1.6875rem;
 }
 
+h2 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
 .flex-container ul {
     gap: 0;
     padding: 0;
@@ -67,10 +74,6 @@ body {
     font-size: 1.25rem;
 }
 
-.img-container {
-    flex-basis: 1 1 7.5%;
-}
-
 .banner {
     background-color: var(--secondary-blue);
     justify-content: center;
@@ -97,8 +100,33 @@ body {
     background-color: var(--off-white);
 }
 
+.information {
+    max-width: 53.875rem;
+}
+
 .information section {
     background-color: var(--white);
     padding: 1.6875rem;
     margin-bottom: 3.375rem;
 }
+
+.information div {
+    max-width: 31.1875rem;
+}
+
+.information section.flex-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information a {
+    font-weight: 700;
+    color: var(--primary-red);
+}
+
+.information a:hover {
+    font-weight: 700;
+    color: var(--hover-red);
+}
+
+
