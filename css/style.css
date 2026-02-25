@@ -6,11 +6,17 @@
     --secondary-blue:#005A8F;
     --tertiary-navy:#002439;
     --hover-red:#84283F;
+} 
+
+.inner-container{
+    margin: 0 auto;
+    max-width: 1310px;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 2.125rem;
 }
 
 
