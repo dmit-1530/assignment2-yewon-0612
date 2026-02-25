@@ -22,6 +22,7 @@ h1 {
     font-size: 4.5rem;
     font-weight: 700;
     max-width: 18.875rem;
+    margin-bottom: 1.6875rem;
 }
 
 .flex-container ul {
@@ -77,10 +78,21 @@ body {
     flex-shrink: 1;
     align-items: center;
     padding: 5.0625rem 0;
-    color: var(--white)
+    color: var(--off-white)
 }
 
 .banner p {
     font-size: 2.25rem;
     max-width: 60.875rem;
+}
+
+.banner a {
+    border: 1px solid #F8FAFC;
+    padding: .75rem 1rem;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    color: var(--secondary-blue);
+    background-color: var(--off-white);
 }
