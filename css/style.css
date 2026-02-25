@@ -15,7 +15,6 @@
 
 .flex-container {
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 2.125rem;
 }
 
@@ -40,23 +39,24 @@ body {
 .navigation {
     justify-content: space-between;
     align-items: center;
-    margin: .625rem 0;
-    /* padding: 0 6.3125rem; */
+    padding: .625rem 0;
     font-size: 1.25rem;
-    flex-direction: row;
 }
 
-.header {
+.img-container {
+    flex-basis: 1 1 7.5;
+}
+
+.banner {
     background-color: var(--secondary-blue);
     justify-content: center;
     flex-shrink: 1;
     align-items: center;
     padding: 5.0625rem 0;
     color: var(--white)
-
 }
 
-.header p {
+.banner p {
     font-size: 2.25rem;
     max-width: 60.875rem;
 }
