@@ -1,0 +1,15 @@
+:root {
+    --white:#FFFFFF;
+    --black:#000000;
+    --primary-red:#BD3A5A;
+    --off-white:#F8FAFC;
+    --secondary-blue:#005A8F;
+    --tertiary-navy:#002439;
+    --hover-red:#84283F;
+}
+
+
+body {
+    margin: 0 auto;
+    background-color: var(--off-white);
+}
