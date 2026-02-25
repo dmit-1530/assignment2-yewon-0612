@@ -30,14 +30,27 @@ h1 {
     column-gap: 1.875rem;
 }
 
+ul a:hover {
+    text-decoration: underline #BD3A5A .125rem;
+}
+
+header {
+    background-color: var(--white);
+}
+
 header a {
     text-decoration: none;
 }
 
-header>a {
+.navigation>a {
     display: inline-block;
     background-color: var(--primary-red);
     padding: .75rem 1rem;
+    color: var(--off-white);
+}
+
+.navigation>a:hover {
+    background-color: var(--hover-red);
 }
 
 body {
