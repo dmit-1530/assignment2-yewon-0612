@@ -27,11 +27,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    background-color: var(--secondary-blue);
-}
-
 header,
 section {
     background-color: var(--white);
 }
+
+.header {
+    background-color: var(--secondary-blue);
+}
+
+
