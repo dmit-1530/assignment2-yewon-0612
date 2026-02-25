@@ -8,11 +8,24 @@
     --hover-red:#84283F;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 body {
-    margin: 0 auto;
     background-color: var(--off-white);
     font-size: 1.125rem;
     color: var(--black);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: var(--secondary-blue);
+}
+
+header,
+section {
+    background-color: var(--white);
 }
