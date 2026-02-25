@@ -8,7 +8,7 @@
     --hover-red:#84283F;
 } 
 
-.inner-container{
+.inner-container {
     margin: 0 auto;
     max-width: 1310px;
 }
@@ -95,4 +95,10 @@ body {
 .banner a:hover {
     color: var(--secondary-blue);
     background-color: var(--off-white);
+}
+
+.information section {
+    background-color: var(--white);
+    padding: 1.6875rem;
+    margin-bottom: 3.375rem;
 }
