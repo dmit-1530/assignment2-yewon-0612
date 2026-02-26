@@ -125,17 +125,19 @@ body {
 }
 
 .new {
+    flex: 1 1 22.5rem;
+}
+
+.new div {
     padding: 1.6875rem;
     background-color: var(--white);
-    display: block;
-    flex: 1 1 19.125rem;
 }
 
 .new figure {
     margin-bottom: 3.375rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
 }
 
@@ -145,6 +147,7 @@ body {
 
 .new h2 {
     margin-bottom: 3.375rem;
+    text-align: center;
 }
 
 footer {
