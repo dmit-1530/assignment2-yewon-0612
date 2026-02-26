@@ -129,4 +129,15 @@ body {
     color: var(--hover-red);
 }
 
+.new {
+    padding: 1.6875rem;
+    background-color: var(--white);
+}
+
+footer {
+    background-color: var(--tertiary-navy);
+    padding: 3.375rem 0;
+    color: var(--off-white);
+}
+
 
