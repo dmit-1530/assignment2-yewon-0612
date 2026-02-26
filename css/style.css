@@ -138,8 +138,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;flex-direction: column;
     margin-bottom: 3.375rem;
+}
+
+.new li:last-child figure {
+    margin-bottom: 0;
 }
 
 .new h2 {
