@@ -18,6 +18,11 @@
     gap: 2.125rem;
 }
 
+.button-flex {
+    display: flex;
+    gap: 2.125rem;
+}
+
 h1 {
     font-size: 4.5rem;
     font-weight: 700;
@@ -114,13 +119,20 @@ body {
     max-width: 31.1875rem;
 }
 
+.button-flex a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 17.1875rem;
+}
+
 .information a {
     font-weight: 700;
+    font-size: 1.375rem;
     color: var(--primary-red);
 }
 
 .information a:hover {
-    font-weight: 700;
     color: var(--hover-red);
 }
 
