@@ -134,10 +134,30 @@ body {
     background-color: var(--white);
 }
 
+.new figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.375rem;
+}
+
+.new h2 {
+    margin-bottom: 3.375rem;
+}
+
 footer {
     background-color: var(--tertiary-navy);
+}
+
+footer div {
     padding: 3.375rem 0;
     color: var(--off-white);
+    justify-content: center;
+}
+
+footer p {
+    max-width: 34.375rem;
 }
 
 
