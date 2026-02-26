@@ -83,7 +83,6 @@ body {
 .banner {
     background-color: var(--secondary-blue);
     justify-content: center;
-    flex-shrink: 1;
     align-items: center;
     padding: 5.0625rem 0;
     margin-bottom: 5.0625rem;
@@ -135,6 +134,10 @@ body {
     text-align: center;
 }
 
+.button-flex div {
+    flex: 1 1 31.1875rem;
+}
+
 .new {
     flex: 1 1 22.5rem;
 }
@@ -148,7 +151,6 @@ body {
     margin-bottom: 3.375rem;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 
