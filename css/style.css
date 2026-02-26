@@ -1,12 +1,12 @@
 :root {
-    --white:#FFFFFF;
-    --black:#000000;
-    --primary-red:#BD3A5A;
-    --off-white:#F8FAFC;
-    --secondary-blue:#005A8F;
-    --tertiary-navy:#002439;
-    --hover-red:#84283F;
-} 
+    --white: #FFFFFF;
+    --black: #000000;
+    --primary-red: #BD3A5A;
+    --off-white: #F1F5F9;
+    --secondary-blue: #005A8F;
+    --tertiary-navy: #002439;
+    --hover-red: #84283F;
+}
 
 .inner-container {
     margin: 0 auto;
@@ -114,11 +114,6 @@ body {
     max-width: 31.1875rem;
 }
 
-.information section.flex-container {
-    align-items: center;
-    justify-content: space-between;
-}
-
 .information a {
     font-weight: 700;
     color: var(--primary-red);
@@ -132,14 +127,16 @@ body {
 .new {
     padding: 1.6875rem;
     background-color: var(--white);
+    display: block;
+    flex: 1 1 19.125rem;
 }
 
 .new figure {
+    margin-bottom: 3.375rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;flex-direction: column;
-    margin-bottom: 3.375rem;
+    align-items: center;
 }
 
 .new li:last-child figure {
@@ -163,5 +160,3 @@ footer div {
 footer p {
     max-width: 34.375rem;
 }
-
-
